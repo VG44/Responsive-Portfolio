@@ -1,0 +1,135 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/color.png");
+}
+
+header{
+	font-size: 36px;
+}
+
+div{
+	position: relative;
+	background-color: white;
+	width: 600px;
+	height: 400px;
+}
+
+.connect{
+	position: absolute;
+	background-color: white;
+	width: 280px;
+	height: 180px;
+	top: 0px;
+	left: 680px;
+}
+
+nav{
+	position: relative;
+}
+
+.top{
+	position: absolute;
+	top: 15px;
+	left: 800px;
+}
+
+#me{
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding-right: 15px;
+}
+
+#link{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#stack{
+	padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.img{
+	width:150px;
+	height:150px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#Hangman{
+	position: absolute;
+	background-color: lightgreen;
+	width: 150px;
+	height: 45px;
+	top: 185px;
+    left: 30px;
+    text-align: center
+}
+
+#RPG{
+	position: absolute;
+	background-color: lightgreen;
+	width: 150px;
+	height: 45px;
+	top: 185px;
+    left: 214px;
+    text-align: center
+}
+
+#Trivia{
+	position: absolute;
+	background-color: lightgreen;
+	width: 150px;
+	height: 45px;
+	top: 185px;
+    left: 398px;
+    text-align: center
+}
+
+#Info{
+	position: absolute;
+	background-color: lightgreen;
+	width: 150px;
+	height: 45px;
+	top: 350px;
+    left: 30px;
+    text-align: center
+}
+
+#Rock{
+	position: absolute;
+	background-color: lightgreen;
+	width: 150px;
+	height: 45px;
+	top: 350px;
+    left: 214px;
+    text-align: center
+}
+
+footer{
+	text-align: center;
+	background-color: lightgrey;
+	height: 40px;
+	padding-top: 20px;
+	margin-top: -7px;
+}
+
+#submit{
+	text-align: center;
+	font-size: 36px;
+}
+
+@media screen and (max-width: 768px){
+	footer{width: 768px;}
+	div{width:400px;  height: 580px;}
+	.connect{left: 450px; width: 250px;}
+	.top{left: 540px;}
+	#Trivia{top: 350px;
+    left: 30px;}
+    #Info{top: 350px;
+    left: 214px;}
+    #Rock{top: 515px;
+   	left: 30px;}
+}
